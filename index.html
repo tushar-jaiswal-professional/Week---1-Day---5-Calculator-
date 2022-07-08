@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <h2>Calculator</h2>
+            <form Name="evaluate" id="form" action="">
+                <div class="container">
+                    <input type="button" Name="display" class="inout"></input>
+                    <input type=button value="1" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="2" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="3" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="+" class="symbol" OnClick="addCharacters(this.value)">
+                    <input type=button value="4" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="5" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="6" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="-" class="symbol" OnClick="addCharacters(this.value)">
+                    <input type=button value="7" class="nums"OnClick="addCharacters(this.value)">
+                    <input type=button value="8" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="9" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="*" class="symbol" OnClick="addCharacters(this.value)">
+                    <input type=button value="C" class="clear" OnClick="remove()">
+                    <input type=button value="0" class="nums" OnClick="addCharacters(this.value)">
+                    <input type=button value="/" class="symbol" OnClick="addCharacters(this.value)">
+                    <input type=button value="=" class="symbol" OnClick="calculate()">
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
